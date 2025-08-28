@@ -4,7 +4,7 @@ import sys
 loop_lock = True
 rand_num = random.randint(1, 100)
 guess_count = 0
-print("Welcome to the number guessing game! Would you like to play?")
+print("Welcome to the number guessing game!")
 print("This is a game by jpsAR")
 time.sleep(0.5)
 print("I am thinking of a number between 1 and 100.")
@@ -29,5 +29,10 @@ while loop_lock == True:
         guess_count = guess_count + 1
         print("Hey! That's bigger then my number, try again!")
         if guess_count > 9999:
-            print("ouch! you ran out of guesses! try again next time.")   
+            print("ouch! you ran out of guesses! try again next time.") 
 sys.exit("Thanks for playing! I hope you had a fun time!")
+#      _          ___   ___ 
+#     (_)__  ___ / _ | / _ \
+#    / / _ \(_-</ __ |/ , _/
+# __/ / .__/___/_/ |_/_/|_| 
+#|___/_/                    
